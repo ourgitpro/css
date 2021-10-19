@@ -1,0 +1,32 @@
+
+body{
+	font-family: arial,helvetica;
+}
+.container{
+	background:#eee;
+	width: 700px;
+	margin: 70px 0 0 50px;
+	
+	display:grid;
+	grid-template-columns: 150px 200px;
+	grid-template-rows: 150px 100px 100px;
+	grid-gap: 20px;
+}
+.items1{
+	background: orangered;
+}
+.items2{
+	background: yellowgreen;
+}
+.items3{
+	background: slateblue;
+}
+.items4{
+	background: hotpink;
+}
+.items5{
+	background: royalblue;
+}
+.items6{
+	background: goldenrod;
+}
